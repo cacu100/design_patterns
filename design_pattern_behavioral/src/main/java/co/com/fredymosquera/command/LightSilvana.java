@@ -3,7 +3,7 @@ package co.com.fredymosquera.command;
 public class LightSilvana implements Light {
 
     public void on() {
-        System.out.println("Turning on Silvana light...");
+        System.out.println("Turning On Silvana light...");
     }
 
     @Override

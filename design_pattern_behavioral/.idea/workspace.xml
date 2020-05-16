@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -24,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -36,13 +37,39 @@
       <recent name="co.com.fredymosquera.command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlaringWithChainOfReponsability">
+  <component name="RunManager" selected="Application.PlayingWithMemento">
     <configuration name="PlaringWithChainOfReponsability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.fredymosquera.chainofreponsability.PlaringWithChainOfReponsability" />
       <module name="design_pattern_behavioral" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="co.com.fredymosquera.chainofreponsability.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayingWithIterators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.fredymosquera.iterator.PlayingWithIterators" />
+      <module name="design_pattern_behavioral" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.fredymosquera.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayingWithMemento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.fredymosquera.memento.PlayingWithMemento" />
+      <module name="design_pattern_behavioral" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.fredymosquera.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,8 +90,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SerializeObect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.com.fredymosquera.memento.SerializeObect" />
+      <module name="design_pattern_behavioral" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.fredymosquera.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlayingWithMemento" />
+        <item itemvalue="Application.SerializeObect" />
+        <item itemvalue="Application.PlayingWithIterators" />
         <item itemvalue="Application.PlaringWithChainOfReponsability" />
         <item itemvalue="Application.PlayingWithRemoControl" />
       </list>
@@ -96,30 +139,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1588386674113">
+    <state x="704" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589601904516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1588386674113" />
+    <state x="704" y="350" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1589601904516" />
+    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1589604052105">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1589604052105" />
     <state x="684" y="140" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588376017821">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="684" y="140" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588376017821" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1588387166156">
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom" timestamp="1589604237906">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588387166156" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1588387166154">
+    <state width="1878" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589604237906" />
+    <state width="1878" height="115" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1589601891634" />
+    <state width="1878" height="367" key="GridCell.Tab.0.center" timestamp="1589604237903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588387166154" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1588387166153">
+    <state width="1878" height="367" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589604237903" />
+    <state width="1878" height="115" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1589601891630" />
+    <state width="1878" height="367" key="GridCell.Tab.0.left" timestamp="1589604237900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588387166153" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1588387166155">
+    <state width="1878" height="367" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589604237900" />
+    <state width="1878" height="115" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1589601891625" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right" timestamp="1589604237905">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588387166155" />
+    <state width="1878" height="367" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589604237905" />
+    <state width="1878" height="115" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1589601891632" />
+    <state x="698" y="300" key="extract.method.dialog" timestamp="1589602079219">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="300" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589602079219" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1589603657947">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589603657947" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
